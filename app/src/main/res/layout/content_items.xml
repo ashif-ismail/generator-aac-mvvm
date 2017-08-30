@@ -1,0 +1,33 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <data>
+    <variable
+      name="content"
+      type="me.ashif.sampleapp.data.model.ContentModel.Content">
+    </variable>
+  </data>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dp_10"
+    android:orientation="vertical">
+
+    <ImageView
+      android:id="@+id/img_thumbnail"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:src="@{content.img}"
+      />
+
+    <TextView
+      android:id="@+id/text_title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:text="@{content.title}"
+      android:textSize="@dimen/sp_20"
+      />
+  </LinearLayout>
+
+</layout>

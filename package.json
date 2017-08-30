@@ -1,7 +1,7 @@
 {
   "name": "generator-aac-mvvm",
-  "version": "1.0.0",
-  "description": "Barebones Android Project with Android Architecture component with MVVM Pattern",
+  "version": "1.0.2",
+  "description": "Barebones Android Project with Android Architecture component in MVVM Pattern using Databinding Support",
   "homepage": "",
   "author": {
     "name": "Ashif Ismail",
@@ -15,7 +15,11 @@
   "keywords": [
     "yeomen-generator",
     "android-starter",
-    "yeoman-generator"
+    "yeoman-generator",
+    "android-arch-comp-starter",
+    "android-mvvm-starter",
+    "android-databinding-starter",
+    "yo-android"
   ],
   "devDependencies": {
     "yeoman-test": "^1.6.0",
@@ -27,7 +31,7 @@
     "jest-cli": "^20.0.0"
   },
   "dependencies": {
-    "yeoman-generator": "^1.0.0",
+    "yeoman-generator": "1.0.0",
     "chalk": "^1.1.3",
     "yosay": "^2.0.0"
   },

@@ -5,5 +5,12 @@
       "authorEmail": "cyber2maro@gmail.com",
       "authorUrl": "github.com/SheikhZayed"
     }
+  },
+  "generator-aac-mvvm": {
+    "promptValues": {
+      "name": "generator-aac-mvvm",
+      "targetSdk": 26,
+      "minSdk": 19
+    }
   }
 }

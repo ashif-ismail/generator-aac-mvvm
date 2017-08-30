@@ -1,0 +1,107 @@
+apply plugin: 'com.android.application'
+
+project.ext {
+    dagger_version = "2.11"
+    espresso_core = "3.0.0"
+    appcompat = "26.0.0"
+    junit = "4.12"
+    constraint = "1.0.2"
+    retrofit = "2.3.0"
+    gson = "2.3.0"
+    arch_components = "1.0.0-alpha8"
+    picasso = "2.5.2"
+    ok_http3_downloader = "1.1.0"
+    timber = "4.5.1"
+    firebase_crash = "10.2.1"
+    stetho = "1.5.0"
+}
+
+android {
+    dataBinding {
+        enabled true
+    }
+    compileSdkVersion 26
+    buildToolsVersion '26.0.0'
+    defaultConfig {
+        applicationId "a"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/notice'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license'
+        exclude 'META-INF/license.txt'
+    }
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "com.android.support:design:$project.appcompat"
+    implementation "com.android.support:support-vector-drawable:$project.appcompat"
+    implementation "com.android.support:support-v4:$project.appcompat"
+    androidTestImplementation("com.android.support.test.espresso:espresso-core:$project.espresso_core", {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation "com.android.support:appcompat-v7:$project.appcompat"
+    testImplementation "junit:junit:$project.junit"
+    implementation "com.android.support:design:$project.appcompat"
+    implementation "com.android.support.constraint:constraint-layout:$project.constraint"
+    implementation "com.android.support:support-vector-drawable:$project.appcompat"
+
+    //Dagger Dependencies
+    compile "com.google.dagger:dagger:$project.dagger_version"
+    compile "com.google.dagger:dagger-android:$project.dagger_version"
+    compile "com.google.dagger:dagger-android-support:$project.dagger_version"
+    annotationProcessor "com.google.dagger:dagger-android-processor:$project.dagger_version"
+    annotationProcessor "com.google.dagger:dagger-compiler:$project.dagger_version"
+    implementation "com.android.support:support-v4:$project.appcompat"
+
+    //Retrofit Dependencies
+    compile "com.squareup.retrofit2:retrofit:$project.retrofit"
+    compile "com.squareup.retrofit2:converter-gson:$project.gson"
+
+    //Architecture Components Dependencies
+    compile "android.arch.lifecycle:runtime:$project.arch_components"
+    compile "android.arch.lifecycle:extensions:$project.arch_components"
+    annotationProcessor "android.arch.lifecycle:compiler:$project.arch_components"
+
+    //Room Dependencies
+    compile "android.arch.persistence.room:runtime:$project.arch_components"
+    annotationProcessor "android.arch.persistence.room:compiler:$project.arch_components"
+
+    //RxJava2 Support for Room
+    compile "android.arch.persistence.room:rxjava2:$project.arch_components"
+    implementation "com.android.support:cardview-v7:$project.appcompat"
+
+    //Picasso Dependency
+    compile "com.squareup.picasso:picasso:$project.picasso"
+    compile "com.jakewharton.picasso:picasso2-okhttp3-downloader:$project.ok_http3_downloader"
+
+    //Timber Dependency
+    compile "com.jakewharton.timber:timber:$project.timber"
+
+    //Firebase CrashReporting
+    compile "com.google.firebase:firebase-crash:$project.firebase_crash"
+
+    //Facebook Stetho Dependency
+    debugCompile "com.facebook.stetho:stetho:$project.stetho"
+}
+
+apply plugin: 'com.google.gms.google-services'
