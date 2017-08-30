@@ -3,7 +3,7 @@
   <data>
     <variable
       name="content"
-      type="me.ashif.sampleapp.data.model.ContentModel.Content">
+      type="<%= appPackage %>.data.model.ContentModel.Content">
     </variable>
   </data>
 
