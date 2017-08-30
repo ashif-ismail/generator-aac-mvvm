@@ -47,7 +47,7 @@ yo aac-mvvm
 
 ## License
 
-Apache-2.0 © [Ashif Ismail](github.com/SheikhZayed)
+Apache-2.0 © [Ashif Ismail](http://github.com/SheikhZayed)
 
 
 [npm-image]: https://badge.fury.io/js/generator-aac-mvvm.svg
