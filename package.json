@@ -1,12 +1,12 @@
 {
   "name": "generator-aac-mvvm",
-  "version": "1.0.2",
-  "description": "Barebones Android Project with Android Architecture component in MVVM Pattern using Databinding Support",
+  "version": "1.0.5",
+  "description": "Yeomen Generator for Barebones Android Project with Android Architecture component in MVVM Pattern using Databinding Support",
   "homepage": "",
   "author": {
     "name": "Ashif Ismail",
     "email": "cyber2maro@gmail.com",
-    "url": "github.com/SheikhZayed"
+    "url": "http://github.com/SheikhZayed"
   },
   "files": [
     "generators"
