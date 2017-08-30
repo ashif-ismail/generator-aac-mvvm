@@ -1,5 +1,5 @@
 # generator-aac-mvvm [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> Barebones Android Project with Android Architecture component with MVVM Pattern
+> Barebones Android Project with Android Architecture component in MVVM Pattern using Data binding support
 
 ## Installation
 
