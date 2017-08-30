@@ -1,4 +1,4 @@
-# Android Starterkit for Architecture Components [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# Android Starterkit for Architecture Components in MVVM[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
 > Bootstrap your next Android Project with Android Architecture component in MVVM in seconds !
 
