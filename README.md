@@ -1,5 +1,16 @@
 # generator-aac-mvvm [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> Yeomen Generator for Barebones Android Project with Android Architecture component in MVVM Pattern using Data binding support
+
+> Bootstrap your next Android Project with Android Architecture component in MVVM in seconds !
+
+### Show some :heart:
+[![GitHub stars](https://img.shields.io/github/stars/SheikhZayed/generator-aac-mvvm.svg?style=social&label=Star)](https://github.com/SheikhZayed/generator-aac-mvvm) [![GitHub forks](https://img.shields.io/github/forks/SheikhZayed/generator-aac-mvvm.svg?style=social&label=Fork)](https://github.com/SheikhZayed/generator-aac-mvvm/fork) [![GitHub watchers](https://img.shields.io/github/watchers/SheikhZayed/generator-aac-mvvm.svg?style=social&label=Watch)](https://github.com/SheikhZayed/generator-aac-mvvm) [![GitHub followers](https://img.shields.io/github/followers/SheikhZayed.svg?style=social&label=Follow)](https://github.com/SheikhZayed/generator-aac-mvvm)
+[![Twitter Follow](https://img.shields.io/twitter/follow/_almukthar.svg?style=social)](https://twitter.com/_almukthar)
+
+### Created & Maintained By
+[Ashif Ismail](https://github.com/SheikhZayed) ([@_almukthar](https://www.twitter.com/_almukthar))
+
+> If you found this repo helpful or you learned something from the source code and want to thank me, consider [buying me a cup of](https://www.paypal.me/SheikhZayed) :coffee:
+
 
 ## Installation
 
