@@ -27,6 +27,8 @@ yo aac-mvvm
 * [Gson](https://github.com/google/gson)
 * [Timber](https://github.com/JakeWharton/timber)
 * [Espresso](https://developer.android.com/training/testing/espresso/index.html)
+* [Stetho](http://facebook.github.io/stetho/)
+* [FindBugs](http://findbugs.sourceforge.net/)
 
 ## Requirements
 
